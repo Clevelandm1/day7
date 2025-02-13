@@ -7,12 +7,22 @@ class Ronald extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green[800],
+        backgroundColor: Colors.red[800],
         centerTitle: true,
-        title: const Text('Ronald\'s Page'),
+        title: const Text('Is this the page you sought?'),
       ),
-      backgroundColor: Colors.green[200],
-      body: Center(),
+      backgroundColor: Colors.red[200],
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("This is some text"),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
