@@ -9,7 +9,7 @@ class Cleveland extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.green[800],
         centerTitle: true,
-        title: const Text('Cleveland\'s Page'),
+        title: const Text('Cleveland\'s Page', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
       ),
       backgroundColor: Colors.green[200],
       body: Center(),

@@ -4,7 +4,8 @@ import 'ronald.dart';
 import 'trey.dart';
 
 void main() {
-  runApp(const MaterialApp(home: HomeScreen()));
+  runApp(
+      const MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen()));
 }
 
 class HomeScreen extends StatelessWidget {
