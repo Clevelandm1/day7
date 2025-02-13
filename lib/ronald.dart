@@ -19,7 +19,12 @@ class Ronald extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("This is some text"),
-              Image.network('https://images.saymedia-content.com/.image/t_share/MTk2ODcyMjgzNTY1MTM5MjAz/types-of-doberman-pinschers-dog-breed-information.png')
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.network('https://images.saymedia-content.com/.image/t_share/MTk2ODcyMjgzNTY1MTM5MjAz/types-of-doberman-pinschers-dog-breed-information.png', height: 600, width: 600,),
             ],
           ),
         ],
