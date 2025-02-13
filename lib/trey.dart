@@ -7,11 +7,11 @@ class Trey extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green[800],
+        backgroundColor: Colors.blue[800],
         centerTitle: true,
         title: const Text('Trey\'s Page'),
       ),
-      backgroundColor: Colors.green[200],
+      backgroundColor: Colors.blue[200],
       body: Center(),
     );
   }
