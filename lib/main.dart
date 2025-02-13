@@ -33,7 +33,9 @@ class HomeScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900),
               ),
             ),
-            ElevatedButton(
+            FilledButton(
+                style:
+                    FilledButton.styleFrom(backgroundColor: Colors.grey[850]),
                 onPressed: () {
                   Navigator.push(
                       context,
@@ -41,13 +43,17 @@ class HomeScreen extends StatelessWidget {
                           builder: (context) => const Cleveland()));
                 },
                 child: Text("Cleveland")),
-            ElevatedButton(
+            FilledButton(
+                style:
+                    FilledButton.styleFrom(backgroundColor: Colors.grey[850]),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Ronald()));
                 },
                 child: Text("Ronald")),
-            ElevatedButton(
+            FilledButton(
+                style:
+                    FilledButton.styleFrom(backgroundColor: Colors.grey[850]),
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Trey()));
