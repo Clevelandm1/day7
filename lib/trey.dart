@@ -12,7 +12,11 @@ class Trey extends StatelessWidget {
         title: const Text('Trey\'s Page'),
       ),
       backgroundColor: Colors.blue[200],
-      body: Center(),
+      body: Column(
+        children: [
+          Text("Don't mind me, just running tests", textAlign: TextAlign.center,),
+        ],
+      ),
     );
   }
 }
