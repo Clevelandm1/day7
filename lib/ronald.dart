@@ -18,7 +18,7 @@ class Ronald extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("This is some text"),
+              Text("Dobermans are my second favorite type of dog. I used to have one named Kane!"),
             ],
           ),
           Row(
