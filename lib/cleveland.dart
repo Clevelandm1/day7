@@ -7,12 +7,22 @@ class Cleveland extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green[800],
+        backgroundColor: Colors.brown[500],
         centerTitle: true,
-        title: const Text('Cleveland\'s Page', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),),
+        title: const Text(
+          'Cleveland\'s Page',
+          style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+        ),
       ),
-      backgroundColor: Colors.green[200],
-      body: Center(),
+      backgroundColor: Colors.brown[300],
+      body: Center(
+        child: Column(
+          children: [
+            Image.network(
+                "https://img.freepik.com/premium-photo/rockstar-dog-with-fun-funky-attitude_1092689-69908.jpg"),
+          ],
+        ),
+      ),
     );
   }
 }
