@@ -15,11 +15,11 @@ class Trey extends StatelessWidget {
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Just running tests, carry on'),
+          Text("Who doesn't love an adorable Samoyed?"),
          Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.network('https://cdn.britannica.com/87/235887-050-3B77621F/Samoyed-dog-mother-with-puppies.jpg')
+          Image.network('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdogsbestlife.com%2Fdog-breeds%2Fsamoyed%2F&psig=AOvVaw2MDJgmFd7QoQA0CB3o0oOY&ust=1739558548172000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiehN6mwYsDFQAAAAAdAAAAABAE')
         
         ],
         )
