@@ -14,14 +14,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.brown[500],
+        backgroundColor: Colors.grey[800],
         centerTitle: true,
         title: const Text(
           'Best Possible App',
           style: TextStyle(fontSize: 40, fontWeight: FontWeight.w800),
         ),
       ),
-      backgroundColor: Colors.brown[300],
+      backgroundColor: Colors.grey[700],
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
