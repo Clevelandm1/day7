@@ -12,14 +12,13 @@ class Trey extends StatelessWidget {
         title: const Text('Trey\'s Page'),
       ),
       backgroundColor: Colors.blue[200],
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+      body: Column(
         children: [
           Text("Who doesn't love an adorable Samoyed?"),
          Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.network('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdogsbestlife.com%2Fdog-breeds%2Fsamoyed%2F&psig=AOvVaw2MDJgmFd7QoQA0CB3o0oOY&ust=1739558548172000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiehN6mwYsDFQAAAAAdAAAAABAE')
+          Image.network('https://th.bing.com/th/id/OIP.mjXKF5H8A0whkQShwQ9K7wHaE8?w=276&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7')
         
         ],
         )
